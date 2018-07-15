@@ -1,0 +1,11 @@
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\bin\Debug\netcoreapp2.0\AStarPathfinder.deps.json
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\bin\Debug\netcoreapp2.0\AStarPathfinder.runtimeconfig.json
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\bin\Debug\netcoreapp2.0\AStarPathfinder.runtimeconfig.dev.json
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\bin\Debug\netcoreapp2.0\AStarPathfinder.dll
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\bin\Debug\netcoreapp2.0\AStarPathfinder.pdb
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\obj\Debug\netcoreapp2.0\AStarPathfinder.csprojResolveAssemblyReference.cache
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\obj\Debug\netcoreapp2.0\AStarPathfinder.csproj.CoreCompileInputs.cache
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\obj\Debug\netcoreapp2.0\AStarPathfinder.AssemblyInfoInputs.cache
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\obj\Debug\netcoreapp2.0\AStarPathfinder.AssemblyInfo.cs
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\obj\Debug\netcoreapp2.0\AStarPathfinder.dll
+C:\Users\Angela\Documents\GitHub\AStarPathfinder\APathfinder\obj\Debug\netcoreapp2.0\AStarPathfinder.pdb
