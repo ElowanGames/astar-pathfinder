@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;       // Allows List<Location>()
 using System.Linq;                      // Allows List functions .Min(...), .First(...)
-using System.Text;
 
 
 namespace AStarPathfinder
@@ -101,13 +100,11 @@ namespace AStarPathfinder
                     }
 
                 }
-
-
-
+                
             }
 
 
-            while (current != null)
+            while (current != null)                         // After finding path, replaces '.' with '*' along best path
             {
                 Console.SetCursorPosition(current.X, current.Y);
                 Console.Write('*');
@@ -115,14 +112,11 @@ namespace AStarPathfinder
                 current = current.Parent;
                 System.Threading.Thread.Sleep(300);
             }
-
-            
+ 
         }
 
-
-
-
-        static List<Location> GetWalkableAdjSquares(int x, int y, string[] map)
+        
+        static List<Location> GetWalkableAdjSquares(int x, int y, string[] map)         // Returns list of adjacent non-obstacle squares
         {
             var possibleLocations = new List<Location>()
             {
@@ -135,7 +129,7 @@ namespace AStarPathfinder
             return possibleLocations.Where(l => map[l.Y][l.X] == ' ' || map[l.Y][l.X] == 'B').ToList();
         }
 
-        static int ComputeDD(int x, int y, int targetX, int targetY)                    // Finds distance to target with no obstacles
+        static int ComputeDD(int x, int y, int targetX, int targetY)                    // Returns distance to target with no obstacles
         {
             return Math.Abs(targetX - x) + Math.Abs(targetY - y);
         }
